@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+
+
+      <style media="screen">
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body{
+
+   font-family: 'Montserrat',sans-serif;
+}
+
+.svg{
+  background-color:  #18a0fb;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.form-control {
+        border-color: black;
+        font-weight: 600;
+        font-size: 12px;
+        box-shadow: 0 0 0 1px black;
+        height: 40px;
+    }
+
+    .form-control:hover {
+            border-color: #28a745;
+            font-size: 12px;
+            font-weight: 600;
+            box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+        }
+        input{
+
+
+        }
+      </style>
+
+
+
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand navbar-dark " style="height:36px;background:black">
+      <i style="color:white" class="fas fa-bars fa-lg"  ></i>&nbsp;&nbsp;
+    <div data-toggle="tooltip" data-placement="bottom" title="Hand Tool"  class="">
+      <svg data-toggle="tooltip" data-placement="bottom" title="hand Tool" help-text="Hand Tool" color:white class="svg" width="36" height="36" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><path d="M13.026 23.382c-.518-.487-.57-1.308-.118-1.856.435-.527 1.191-.62 1.74-.215l1.347.995 1 .739V15c0-.552.448-1 1-1 .553 0 1 .448 1 1v5h1v-7c0-.552.448-1 1-1 .553 0 1 .448 1 1v7h1v-6c0-.552.448-1 1-1 .553 0 1 .448 1 1v6h1v-3c0-.552.448-1 1-1 .553 0 1 .448 1 1v8c0 2.762-2.238 5-5 5h-1c-1.553 0-2.94-.708-3.858-1.82-.036-.028-.072-.06-.106-.092l-5.005-4.706zm4.4 5.507l-.08-.072-5.005-4.706c-.902-.848-.993-2.267-.204-3.221.772-.936 2.127-1.106 3.105-.384l.753.557V15c0-1.104.896-2 2-2 .365 0 .706.097 1 .268V13c0-1.104.896-2 2-2 .873 0 1.615.559 1.888 1.338.318-.214.7-.338 1.112-.338 1.105 0 2 .896 2 2v1.268c.294-.17.636-.268 1-.268 1.105 0 2 .896 2 2v8c0 3.314-2.686 6-6 6h-1c-1.83 0-3.47-.821-4.57-2.111z" fill-rule="evenodd" fill-opacity="1" fill="#fff" stroke="none"></path></svg>
+
+    </div>
+    <div class="container">
+
+        <a  class="navbar-brand abs-center-x" href="#">Group</a>
+
+        <span class="navbar-text ml-auto" data-toggle="tooltip" data-placement="bottom" title="Anonymous User " style="width:32px;height: 32px;line-height: 15px;border-radius: 100%;display: flex;text-align: center;justify-content: center; color: black; background-color: rgb(242, 78, 30);"><b>?</b></span>
+          <span class="">
+             <button data-toggle="tooltip" data-placement="bottom" title="Login"  style="margin-left: 15px;margin-right: 15px;color:white;border:0.5px solid white;" class="btn btn-sm btn-outline-secondary bg-dark" type="button">Login</button>
+          </span>
+          <i data-toggle="tooltip" data-placement="bottom" title="Present"  style="color: #18a0fb;;"  class="fas fa-play fa-lg"></i>
+
+
+    </div>
+
+
+</nav>
+<br><br>
+<div align='center' class="container">
+
+  <div align='center' class="card col-9">
+
+    <!-- Card image 3-->
+
+
+    <!-- Card content -->
+    <div class="card-body">
+
+      <p style="line-height:30px;"><b>Welcome to ATG! </b> Create an account and collaborate on  this file </p> <button   style="margin:10px;color:black;border-radius: :10px solid black ;" class="btn btn-md btn-outline-primary bg-light" type="button"><img src="http://pngimg.com/uploads/google/google_PNG19630.png" width=20px height=20px style="margin-right:5px"></img>Sign up with Google</button>
+
+       <button style="margin-left:4px;padding-right:30px;padding-left:30px" class="btn btn-md btn-success" data-toggle="modal" data-target="#myModal" type="button" name="button">Sign up with email</button></p>
+
+      <!-- Button -->
+
+    </div>
+
+  </div>
+</div>
+<!-- Card -->
+
+
+  <div  class="modal" id="myModal" >
+  <div class="modal-dialog">
+  <div class="modal-content" >
+
+  <!-- Modal Header -->
+  <div   class="modal-header">
+  <h4 style="text-align : center;" class="modal-title"><b>Create an account to collaborate on "Groups"</b></h4>
+  <button type="button" class="close" data-dismiss="modal">&times;</button>
+  </div>
+
+  <!-- Modal body -->
+  <div class="modal-body">
+    <div class="">
+      <button style="width: 350px;margin:auto;;color:black;border-radius :10px solid black ;" class="form-control" type="button"><img src="http://pngimg.com/uploads/google/google_PNG19630.png" width=20px height=20px style="margin-right:5px"></img>Sign up with Google</button><br>
+
+        <!-- <hr style="width:300px;border:2px solid black"> -->
+        <div aling='center' style="text-align:center" class="">
+            <!-- <hr> -->
+            <b>OR</b>
+            <!-- <hr> -->
+        </div>
+          <br>
+        <form class="form-group" action="#" method="post">
+          <input style="width:350px;margin: auto;border-radius : 1px solid black" class="form-control" type="email" name="" value="" placeholder="Email" required><br>
+          <input style="width:350px;margin: auto;border-radius : 1px solid black" class="form-control" type="password" name="" value="" placeholder="Password" required><br>
+              <input style="width:350px;margin: auto;border-radius : 5px;background:black;color:white;" class="form-control" type="submit" name="" value="Create Account" ><br>
+<!--
+          <input style="width:300px;margin:auto;;background:black;color:white" class="btn btn-md" type="submit" name="button"> -->
+
+        </form>
+
+
+
+  </div>
+  </div>
+  </div>
+  </div>
+
+</div>
+
+  </body>
+</html>
